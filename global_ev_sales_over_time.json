@@ -1,0 +1,20 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Global EV Sales over time",
+    "title": "Global EV Sales (2010-2021)",
+    "data": {"url": "https://raw.githubusercontent.com/ychi0014/3179/main/three.csv"},
+    "mark": "line",
+    "encoding": {
+      "x": {
+        "title": "Year",
+        "field": "year", 
+        "type": "quantitative"
+      },
+      "y": {
+        "title": "Global EV Sales",
+        "field": "sales", 
+        "aggregate": "sum", 
+        "type": "quantitative"
+      }
+    }
+  }
