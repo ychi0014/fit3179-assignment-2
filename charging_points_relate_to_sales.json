@@ -1,6 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "EV Sales vs Percentage of Renewables per Country (2021)",
+    "width": 700,
+    "height": 600,
     "data": {
       "url": "https://raw.githubusercontent.com/ychi0014/3179/main/three.csv"
     },
